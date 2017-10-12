@@ -162,6 +162,10 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
         case 'calc':
           output( math.eval(args.join(' ')) );
           break;
+              
+              case 'Hello':
+          output("HEllo")
+         break;
         case 'license':
           var txt = "\
             <span class=\"blue\">Torminal is licensed under the <a href=\"https://github.com/card100/torminal/blob/master/LICENSE\">MIT License</a>.</span><br>\
